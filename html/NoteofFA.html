@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>NotesofFA</title>
+  <script id="MathJax-script" async
+          src="es5/tex-mml-chtml.js">
+  </script>
+</head>
+<body  style="margin:0 auto;width:900px;font-family:Times New Roman,'Microsoft YaHei';font-size:100%">
+  <h1>Functional Analysis</h1>
+  <p>泛函分析研究抽象空间上的泛函算子与极限理论。泛函分析分为线性泛函分析和非线性泛函分析。</p>
+  <p>线性泛函分析包括空间和算子。</p>
+<h2>空间理论</h2>
+<p>空间：赋予了某种结构（代数结构和拓扑结构）的非空集合。</p>
+<h3>距离空间</h3>
+<p>分析中最重要的概念是极限，极限的概念立足于距离。要在空间中建立极限理论，必须现在空间中引入距离概念。</p>
+<p>距离：$X$是一个非空集合，如果映射$d：X\times X\rightarrow R$，满足:<ol><li>非负性</li><li>对称性</li><li>三角不等式</li></ol>则称$d$为$X$上的一个距离，定义了距离的集合X称为空间，记为$(X,d)$.</p>
+<h4>离散距离空间</h4>
+<p>$X$是一个非空集合，对任意$x,y \in X,d(x,y)=\{\begin{aligned}1,x\ne y\\0,x=y\end{aligned}$,$(X,d)$是离散距离空间。</p>
+<p>离散距离空间说明任意一个集合均可定义距离。</p>
+<h4>距离的拓展</h4>
+<p>$(X,d)$是距离空间，对任意$x,y \in X,\rho(x,y)=\frac{d(x,y)}{1+d(x,y)}$,$(X,\rho)$是距离空间。</p>
+<p>证明：$f(t)=\frac{t}{1+t}$在$(0,+\infty)$是单增的。$\rho(x,y)=\frac{d(x,y)}{1+d(x,y)}\leq \frac{d(x,z)+d(z,y)}{1+d(x,z)+d(z,y)}=\frac{d(x,z)}{1+d(x,z)+d(z,y)}+\frac{d(z,y)}{1+d(x,z)+d(z,y)}\leq \frac{d(x,z)}{1+d(x,z)}+\frac{d(z,y)}{1+d(z,y)}$.</p>
+<p>离散拓展说明空间上可以定义无限多个距离。</p>
+<p>常见的距离：欧氏距离、曼哈顿距离、集合距离（最近元素距离、最远元素距离、平均元素距离）、集合Jaccard距离（集合交比集合并）</p>
+<h4>连续函数空间</h4>
+<p>$[a,b]$上连续函数的全体为$C[a,b]$,$d(x,y)=\max\limits_{a\leq t\leq b}|x(t)-y(t)|$，$(C[a,b],d)$为距离空间，称为连续函数空间。</p>
+<h4>有界数列空间</h4>
+<p>$l^{\infty}$</p>
+<h4>距离空间中的收敛</h4>
+<p>收敛</p>
+<p>按坐标收敛：每个分量分别收敛到极限的每个分量。</p>
+</body>
+</html>
